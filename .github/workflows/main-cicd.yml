@@ -154,7 +154,7 @@ with:
 
 context: .
 
-file: ./Dockerfile/ Dockerfile
+file: ./docker/Dockerfile
 
 push: false # Set 'true' untuk push ke registry (misal Docker Hub)
 
