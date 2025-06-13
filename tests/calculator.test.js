@@ -44,7 +44,7 @@ assert(testPerformCalculation("10/4") === 2.5, "Tes Pembagian Desimal: 10/4 seha
 assert(testPerformCalculation("sqrt(4)") === 'Error', "Tes Fungsi Tidak Didukung: sqrt(4) seharusnya Error"); // Contoh input tidak valid
 
 console.log("--- Tes Unit Selesai ---");
-console.log(```Total Tes: ${testsPassed + testsFailed}, Lulus: ${testsPassed}, Gagal: ${testsFailed}`);
+console.log(`Total Tes: ${testsPassed + testsFailed}, Lulus: ${testsPassed}, Gagal: ${testsFailed}`);
 
 if (testsFailed > 0) {
     console.error("🔴 Beberapa tes unit gagal!");
